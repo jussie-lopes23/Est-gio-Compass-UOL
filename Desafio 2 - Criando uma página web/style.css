@@ -1,0 +1,90 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    max-width: 1440px;
+    padding: 0 5%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.barra_Superior {
+    background-color: #1a2b48;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+
+.contatos-info span,
+.promo span,
+.redes-sociais span {
+    margin-right: 15px;
+}
+
+.redes-sociais a {
+    margin-left: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.cabeçalho_Principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #252B42;
+    margin-right: 50px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-left: 30px;
+    
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.user-actions a {
+    margin-left: 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.user-actions a:last-child {
+    font-size: 18px;
+}
