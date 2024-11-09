@@ -1,79 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Página Web</title>
+    <title>E-commerce Header</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <div class="container">
-            <div class="barra_Superior">
-                <nav class="top-bar">
-                    <h6 class="contato"><span>📞 (225) 555-0118</span></h6>
-                    <h6 class="contato"><span>✉️ michelle.rivera@example.com</span></h6>
-                    <h6 class="contato"><span>Follow Us and get a chance to win 80% off</span></h6>
-                    <ul>
-                        <li>Follow Us:</li>
-                        <li><a href="#">📷</a></li>
-                        <li><a href="#">🎥</a></li>
-                        <li><a href="#">🔗</a></li>
-                        <li><a href="#">🐦</a></li>
-                    </ul>
-                </nav>
-                <!--<div  class="contatos-info">
-                    <span> (225) 555-0118</span>
-                    <span> michelle.rivera@example.com</span>
+        
+        <section class="top-header">
+            <div class="interface">
+                <div class="contato">
+                    <img src="img/SimbTelefone.png" alt="simbolo Email">
+                    <h6>(225) 555-0118</h6>
+                    <img src="img/simbEmail.png" alt="simbolo Email">
+                    <h6>michelle.rivera@example.com</h6>
                 </div>
                 <div class="promo">
-                    <span>Follow Us and get a chance to win 80% off</span>
+                    <h6>Follow Us  and get a chance to win 80% off</h6>
                 </div>
-                <div class="redes-sociais">
-                    <span>Follow Us:</span>
-                    <a href="#">📷</a>
-                    <a href="#">🎥</a>
-                    <a href="#">🔗</a>
-                    <a href="#">🐦</a>
-                </div>-->
-            </div>       
-            <div class="cabeçalho_Principal">
-                
-                <nav class="main-bar"> 
-                    <h1 class="logo">Bandage</h1>
-                    <ul class="menu">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Shop</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Pages</a></li>
-    
-                    </ul>
-                    <!--
-                    <a href="#">Home</a>
-                    <div class="dropdown">
-                        <a href="#">Shop</a>
+                <div class="icones-sociais">
+                    <h6>Follow Us: </h6>
+                    <div class="btn-social">
+                        <a href="#"><button ><img src="img/logoInstagran.png" alt="logo instagram"></button></a>
+                        <a href="#"><button ></button><img src="img/logoYouTube.png" alt="logo you tube"></button></a>
+                        <a href="#"><button ></button><img src="img/logoFacebook.png" alt="logo facebook"></button></a>
+                        <a href="#"><button ><img src="img/logoTwiter.png" alt="logo twiter"></button></a>
                     </div>
-                    <a href="#">About</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Contact</a>
-                    <a href="#">Pages</a>
-                    -->
-    
-                </nav>
-                <div class="user-actions">
-                    <a href="#">Login / Register</a>
-                    <a href="#">🔍</a>
-                    <a href="#">🛒</a>
-                    <a href="#">❤️</a>
+                    
+                </div>
+            </div>       
+        </section>
+
+        <section class="bottom-header">
+            <div class="interface">
+                <div class="logotipo">
+                    <h1>Bandage</h1>     
+                </div>
+                <div class="nav-principal">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li class="menu-Drop"><a href="#">Shop <img src="img/Vector.png" alt="Simbolo vetor"></a>
+                                <div class="drop">
+                                    <a href="#">Roupas</a>
+                                    <a href="#">Acessórios</a>
+                                    <a href="#">Calçados</a>
+                                </div>
+                            </li>
+                            <li><a href="#">About </a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Pages</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="icones-diversos">
+                    <div class="btn-diversos">
+                        <a href="#"><button ><img src="img/login.png" alt="logo login"></button></a>
+                        <a href="#"><button ></button><img src="img/lupa.png" alt="logo lupa"></button></a>
+                        <a href="#"><button ></button><img src="img/carrinho.png" alt="logo carrinho"></button></a>
+                        <a href="#"><button ><img src="img/favoritos.png" alt="logo favorito"></button></a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <div class="carousel">
+            <div class="carousel-slide active">
+                <img src="img/carrossel.png" alt="Coleção Verão">
+                <div class="carousel-content">
+                    <p class="season">SUMMER 2020</p>
+                    <h2>NEW COLLECTION</h2>
+                    <p class="description">We know how large objects will act, but things on a small scale.</p>
+                    <button class="shop-now">SHOP NOW</button>
                 </div>
             </div>
+            <div class="carousel-slide">
+                <img src="img/carrossel.png" alt="Coleção Verão">
+                <div class="carousel-content">
+                    <p class="season">SUMMER 2020</p>
+                    <h2>NEW COLLECTION</h2>
+                    <p class="description">We know how large objects will act, but things on a small scale.</p>
+                    <button class="shop-now">SHOP NOW</button>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="img/carrossel.png" alt="Coleção Verão">
+                <div class="carousel-content">
+                    <p class="season">SUMMER 2020</p>
+                    <h2>NEW COLLECTION</h2>
+                    <p class="description">We know how large objects will act, but things on a small scale.</p>
+                    <button class="shop-now">SHOP NOW</button>
+                </div>
+            </div>
+            <!-- Botões de navegação -->
+            <button class="carousel-control-prev">&#10094;</button>
+            <button class="carousel-control-next">&#10095;</button>
+            <!-- Indicadores -->
+            <div class="carousel-indicators">
+                <span class="indicator active" data-slide="0"></span>
+                <span class="indicator" data-slide="1"></span>
+                <span class="indicator" data-slide="2"></span>
+            </div>
         </div>
-    </header>
-    <main>
-        
     </main>
+
     <script src="script.js"></script>
 </body>
 </html>
